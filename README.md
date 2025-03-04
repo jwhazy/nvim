@@ -1,4 +1,4 @@
-# Jack's Neovim config
+# Neovim config
 
 Based off kickstart.nvim. Added some plugins and extracted it out of the massive init.lua file. I am extremely new to Neovim (and vim motions) so I expect to change this a lot as I move off of Visual Studio Code.
 
