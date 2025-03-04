@@ -23,7 +23,5 @@ return {
 			--  Check out: https://github.com/echasnovski/mini.nvim
 		end,
 	},
-	{
-		"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
-	},
+	"tpope/vim-sleuth", -- Detect tabstop and shiftwidth automatically
 }
