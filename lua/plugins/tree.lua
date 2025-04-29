@@ -6,10 +6,17 @@ return {
 	dependencies = {
 		"nvim-tree/nvim-web-devicons",
 	},
+	keys = {
+		{ "<leader>e", "<cmd>NvimTreeToggle<cr>", desc = "Toggle file tree" },
+	},
 	config = function()
 		require("nvim-tree").setup({
 			filters = {
-				custom = { ".DS_Store" },
+				custom = { ".DS_Store", ".git", "node_modules" },
+				dotfiles = true,
+			},
+			view = {
+				adaptive_size = true,
 			},
 		})
 	end,
