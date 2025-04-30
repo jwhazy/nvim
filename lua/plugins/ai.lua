@@ -7,7 +7,7 @@ return {
 			provider = "openai",
 			openai = {
 				endpoint = "https://api.openai.com/v1",
-				model = "o3-mini",
+				model = "gpt-4o-mini",
 				timeout = 30000,
 				temperature = 0,
 				max_tokens = 4096,
