@@ -32,3 +32,5 @@ vim.keymap.set("n", "<leader>Y", [["+Y]], { desc = "Copy line to system clipboar
 
 -- Delete and send to void buffer
 vim.keymap.set({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete without overwriting" })
+
+vim.keymap.set("n", "<leader>j", vim.lsp.buf.definition, { desc = "Jump to definition" })
