@@ -34,7 +34,7 @@ vim.keymap.set("n", "<leader>Y", [["+Y]], { desc = "Copy line to system clipboar
 vim.keymap.set({ "n", "v" }, "<leader>d", '"_d', { desc = "Delete without overwriting" })
 
 -- Jump to definition
-vim.keymap.set("n", "<leader>j", vim.lsp.buf.definition, { desc = "Jump to definition" })
+vim.keymap.set("n", "gd", vim.lsp.buf.definition, { desc = "[G]oto [D]efinition" })
 
 -- Copy all shortcut
 vim.keymap.set({ "n", "v" }, "<leader>A", ":%y+<CR>gg", { desc = "Copy all" })

@@ -12,8 +12,8 @@ return {
 	config = function()
 		require("nvim-tree").setup({
 			filters = {
-				custom = { ".DS_Store", ".git", "node_modules" },
-				dotfiles = true,
+				custom = { ".DS_Store", ".git" },
+				dotfiles = false,
 			},
 			view = {
 				adaptive_size = true,

@@ -68,6 +68,10 @@ return { -- Autoformat
 			typescriptreact = biome_lsp_or_prettier,
 			json = { "biome" },
 			jsonc = { "biome" },
+			html = biome_lsp_or_prettier,
+			c = { "clang_format" },
+			cpp = { "clang_format" },
+
 			-- Conform can also run multiple formatters sequentially
 			-- python = { "isort", "black" },
 			--
